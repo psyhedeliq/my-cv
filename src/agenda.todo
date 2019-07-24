@@ -10,9 +10,14 @@ ToDo list:
   ✔ create full name variables and implement into structure @done (24/07/2019, 16:02:14)
   ✔ create title variable and implement into structure @done (24/07/2019, 16:02:15)
   ✔ create social list variable composed of objects with "icon" and "url" keys and implement into structure (twitter, facebook, github, etc) (commit) @done (24/07/2019, 17:29:12)
+
 # Landing page (part 2)
   ✔ create landing page labels into social > social-item > social-label @done (24/07/2019, 17:29:26)
-  ☐ create input box-radio list next to box-message which contains a box-link
+  ✔ create input box-radio list next to box-message which contains a box-link @done (24/07/2019, 17:34:15)
+  ✔ group input type radio @done (24/07/2019, 17:38:54)
+  ☐ link label for attribute to input id attribute
   ☐ create a reset input radio followed by a box-message and box-header which contains a box-info and box-close
+
+#Landing page (part 3)
   ☐ style landing page
   
