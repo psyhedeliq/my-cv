@@ -1,5 +1,7 @@
-doctype html
-html
-  head
-  body
-    h1 Hi there Cornel :D
+extends _component/layout/page
+block config
+  -
+    const myTitle = 'My Awesome CV';
+    const myDescription = 'This is made using pure HTML and CSS3 techniques';
+block content
+  h1 This is it

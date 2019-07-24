@@ -3,10 +3,10 @@ ToDo list:
   ✔ clean _partial from previous lesson @done (24/07/2019, 14:57:14)
   ✔ use icomoon.io to generate custom font @done (24/07/2019, 15:20:39)
   ✔ download font files and font source into _asset/font (commit) @done (24/07/2019, 15:20:52)
-  ☐ create layout page
-  ☐ add border-box and fluid typography
-  ☐ add reset css
-  ☐ import font files (commit)
+  ✔ create layout page @done (24/07/2019, 15:30:53)
+  ✔ add border-box and fluid typography @done (24/07/2019, 15:42:54)
+  ✔ add reset css @done (24/07/2019, 15:48:01)
+  ✔ import font files (commit) @done (24/07/2019, 15:48:05)
   ☐ create full name variables and implement into structure
   ☐ create title variable and implement into structure
   ☐ create social list variable composed of objects with "icon" and "url" keys and implement into structure (twitter, facebook, github, etc) (commit)
