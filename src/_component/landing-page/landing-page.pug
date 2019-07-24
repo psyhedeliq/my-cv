@@ -1,0 +1,42 @@
+-
+  const myFullName = 'Cornel Cristian Filip';
+  const myJobTitle = 'Junior Front End Developer';
+  const socialList = [
+    {
+      icon: 'facebook2', 
+      url: 'https://www.facebook.com/cornel.filip'
+    },
+    {
+      icon: 'instagram', 
+      url: 'https://www.instagram.com/cornel__cristian/'
+    },
+    {
+      icon: 'twitter', 
+      url: 'https://twitter.com/CornelCristianF'
+    },
+    {
+      icon: 'youtube', 
+      url: 'https://www.youtube.com/channel/UCx8KpaqxsIqAmDhVbROkb8g?view_as=subscriber'
+    },
+    {
+      icon: 'stackoverflow', 
+      url: 'https://stackoverflow.com/users/9761147/psyhedeliq'
+    },
+    {
+      icon: 'linkedin', 
+      url: 'https://www.linkedin.com/in/cornelfilip/'},
+    {
+      icon: 'github', 
+      url: 'https://github.com/psyhedeliq'
+    },
+  ]
+#landing-page
+.landing-page
+  .landing-page__wrapper
+    h1.landing-page__name=myFullName
+    h2.landing-page__title=myJobTitle
+    ul.landing-page__social
+      each social in socialList
+        li.landing-page__item
+          label.landing-page__label(for="")
+            span(class=`my-cv__icon--${social.icon}`)
