@@ -19,5 +19,11 @@ ToDo list:
   ☐ create a reset input radio followed by a box-message and box-header which contains a box-info and box-close
 
 #Landing page (part 3)
-  ☐ style landing page
-  
+  ✔ style landing page @done (24/07/2019, 18:16:21)
+  ✔ make the landing page full height @done (24/07/2019, 18:06:34)
+  ✔ html and body full height and font size @done (24/07/2019, 18:06:32)
+  ✔ landing page wrapper center content @done (24/07/2019, 18:09:27)
+  ✔ landing page name font size and UPPERCASE letters @done (24/07/2019, 18:10:43)
+  ✔ landing page title font size and Capitalize words @done (24/07/2019, 18:11:24)
+  ✔ landing page social horizontal align children and more away @done (24/07/2019, 18:13:09)
+  ✔ landing page label font size, color and space out @done (24/07/2019, 18:13:45)
