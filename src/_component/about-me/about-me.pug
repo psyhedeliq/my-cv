@@ -1,0 +1,49 @@
+//- data comes here
+- 
+  const header = "#about me"
+  const imagePath = "asset/image/chris.jpg"
+  const myFullNameAboutMe = "Cornel Cristian Filip"
+  const myTitleAboutMe = "Junior Front End Developer"
+  const slogan = "I make the front-end world a better place every day."
+  const achievement = {
+    title: 'Achievement',
+    content: 'I taught myself web development while working a full-time job.'
+  }
+
+  const coolStuff = {
+    title: 'ttt',
+    buttonList: [
+      {
+        url: 'https://github.com/psyhedeliq',
+        icon: 'github',
+        label: 'Click to visit the Github project source'
+      },
+      {
+        url: 'asset/doc/BIO - Filip Cornel Cristian - EN.docx',
+        icon: 'file-word',
+        label: 'Click to download the English version'
+      },
+      {
+        url: 'asset/doc/BIO - Filip Cornel Cristian.docx',
+        icon: 'file-word',
+        label: 'Click to download the Romanian version'
+      }
+    ]
+  }
+//- the view comes here
+#about-me
+.about-me
+.about-me__header=header
+  .about-me__avatar-wrapper
+    img.about-me__avatar(src=imagePath)
+  .about-me__full-name=myFullNameAboutMe
+  .about-me__full-title=myTitleAboutMe
+  .about-me__slogan=slogan
+
+  .about-me__title=achievement.title
+  .about-me__content=achievement.content
+
+  each button in coolStuff.buttonList
+    a(href=button.url)
+      span=button.label
+      span(class=`.my-cv__icon--${button.icon}`)

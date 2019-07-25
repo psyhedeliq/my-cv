@@ -15,8 +15,8 @@ ToDo list:
   ✔ create landing page labels into social > social-item > social-label @done (24/07/2019, 17:29:26)
   ✔ create input box-radio list next to box-message which contains a box-link @done (24/07/2019, 17:34:15)
   ✔ group input type radio @done (24/07/2019, 17:38:54)
-  ☐ link label for attribute to input id attribute
-  ☐ create a reset input radio followed by a box-message and box-header which contains a box-info and box-close
+  ✔ link label for attribute to input id attribute @done (25/07/2019, 07:54:28)
+  ✔ create a reset input radio followed by a box-message and box-header which contains a box-info and box-close @done (25/07/2019, 07:54:28)
 
 #Landing page (part 3)
   ✔ style landing page @done (24/07/2019, 18:16:21)
@@ -39,3 +39,15 @@ ToDo list:
   ✔ make a bottom right corner of the landing page box close rounded @done (24/07/2019, 19:06:25)
   ✔ set the color of the landing page box link and landing page box message to white @done (24/07/2019, 19:07:39)
   ✔ style the landing page box link @done (24/07/2019, 19:07:40)
+
+# About me (part 1)
+  ✔ create the pug and sass files @done (25/07/2019, 07:55:58)
+  ✔ make them work in the project @done (25/07/2019, 07:55:58)
+  ☐ prepare CV files and image for avatar
+  ☐ create the following variables:
+      header
+      imagePath
+      fullName
+      myTitle
+      slogan
+      achievement
