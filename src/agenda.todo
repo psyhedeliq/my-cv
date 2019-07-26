@@ -73,3 +73,9 @@ ToDo list:
   ✔ fix the icon issue @done (26/07/2019, 14:24:46)
   ✔ set the color of the border of the link button to #d1adc2, color to #7ea1a6, background to white and align the span tags using display flex. Increase the dont-size and make the corners rounded. Remove the underling of the anchor tag. @done (26/07/2019, 14:45:37)
   ✔ set the .about-me__link-description alignement to center, font size to 1.5rem and the line height to 1.5rem @done (26/07/2019, 14:46:24)
+
+# Start the award section and refactor it
+  ✔ create the pug and scss files and link them to the project @done (26/07/2019, 15:43:28)
+  ✔ create the .award__header and style it with a color of #b2c7e2 @done (26/07/2019, 15:46:27)
+  ✔ refactor the header CSS into reusable code @done (26/07/2019, 15:52:13)
+  ✔ refactor the colors into a config and use nice variables names for colors @done (26/07/2019, 16:14:29)
