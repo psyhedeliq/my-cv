@@ -1,7 +1,7 @@
 //- data comes here
 - 
   const header = "#about me"
-  const imagePath = "asset/image/chris.jpg"
+  const imagePath = "asset/image/chris 1.jpg"
   const myFullNameAboutMe = "Cornel Cristian Filip"
   const myTitleAboutMe = "Junior Front End Developer"
   const slogan = "I make the front-end world a better place every day."
@@ -11,7 +11,7 @@
   }
 
   const coolStuff = {
-    title: 'ttt',
+    title: 'grab cool stuff',
     buttonList: [
       {
         url: 'https://github.com/psyhedeliq',
@@ -21,12 +21,12 @@
       {
         url: 'asset/doc/BIO - Filip Cornel Cristian - EN.docx',
         icon: 'file-word',
-        label: 'Click to download the English version'
+        label: 'Click to download the English version of my BIO'
       },
       {
         url: 'asset/doc/BIO - Filip Cornel Cristian.docx',
         icon: 'file-word',
-        label: 'Click to download the Romanian version'
+        label: 'Click to download the Romanian version of my BIO'
       }
     ]
   }
@@ -42,8 +42,10 @@
 
   .about-me__title=achievement.title
   .about-me__content=achievement.content
-
-  each button in coolStuff.buttonList
-    a(href=button.url)
-      span=button.label
-      span(class=`.my-cv__icon--${button.icon}`)
+ 
+  .about-me__title=coolStuff.title
+  .about-me__link-list
+    each button in coolStuff.buttonList
+      a(href=button.url)
+        span=button.label
+        span(class=`.my-cv__icon--${button.icon}`)

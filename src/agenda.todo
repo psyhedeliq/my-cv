@@ -43,11 +43,25 @@ ToDo list:
 # About me (part 1)
   ✔ create the pug and sass files @done (25/07/2019, 07:55:58)
   ✔ make them work in the project @done (25/07/2019, 07:55:58)
-  ☐ prepare CV files and image for avatar
-  ☐ create the following variables:
-      header
-      imagePath
-      fullName
-      myTitle
-      slogan
-      achievement
+  ✔ prepare CV files and image for avatar @done (25/07/2019, 23:57:57)
+  ✔ create the following variables: @done (25/07/2019, 23:57:58)
+      ✔ header @done (25/07/2019, 23:58:14)
+      ✔ imagePath @done (25/07/2019, 23:58:14)
+      ✔ fullName @done (25/07/2019, 23:58:15)
+      ✔ myTitle @done (25/07/2019, 23:58:15)
+      ✔ slogan @done (25/07/2019, 23:58:16)
+      ✔ achievement @done (25/07/2019, 23:58:17)
+        ✔ title @done (26/07/2019, 12:36:23)
+        ✔ content @done (26/07/2019, 12:36:24)
+      ✔ coolStuff @done (26/07/2019, 12:36:25)
+        ✔ title @done (26/07/2019, 12:36:25)
+        ✔ linkList @done (26/07/2019, 12:36:26)
+          ✔ url, icon, text @done (26/07/2019, 12:36:26)
+  ✔ print the coolStuff title and change it to "grab coolStuff" @done (26/07/2019, 12:37:14)
+  ✔ wrap the buttons in a .about-me__link-list div @done (26/07/2019, 12:40:01)
+  ☐ stage all and commit with "create the structure of the about me section"
+
+# Style the about me section
+  ☐ style the .about-me with a radial gradient of ellipse type using #fb9e91 and
+  ☐ make the .about-me__header of white color and ajust padding, font size
+  ☐ make .about-me__avatar round, like a circle, set the width to 100% and border
