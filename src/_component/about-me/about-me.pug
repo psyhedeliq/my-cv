@@ -21,23 +21,18 @@
       {
         url: 'asset/doc/BIO - Filip Cornel Cristian - EN.docx',
         icon: 'file-word',
-        label: 'Click to download the English version of my BIO'
+        label: 'Click to download my Biography'
       },
-      {
-        url: 'asset/doc/BIO - Filip Cornel Cristian.docx',
-        icon: 'file-word',
-        label: 'Click to download the Romanian version of my BIO'
-      }
     ]
   }
 //- the view comes here
 #about-me
 .about-me
-.about-me__header=header
+  .about-me__header=header
   .about-me__avatar-wrapper
     img.about-me__avatar(src=imagePath)
   .about-me__full-name=myFullNameAboutMe
-  .about-me__full-title=myTitleAboutMe
+  .about-me__title=myTitleAboutMe
   .about-me__slogan=slogan
 
   .about-me__title=achievement.title
@@ -46,6 +41,6 @@
   .about-me__title=coolStuff.title
   .about-me__link-list
     each button in coolStuff.buttonList
-      a(href=button.url)
-        span=button.label
-        span(class=`.my-cv__icon--${button.icon}`)
+      a.about-me__link(href=button.url)
+        span.about-me__link-description=button.label
+        span(class=`my-cv__icon--${button.icon}`)

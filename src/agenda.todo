@@ -59,9 +59,17 @@ ToDo list:
           ✔ url, icon, text @done (26/07/2019, 12:36:26)
   ✔ print the coolStuff title and change it to "grab coolStuff" @done (26/07/2019, 12:37:14)
   ✔ wrap the buttons in a .about-me__link-list div @done (26/07/2019, 12:40:01)
-  ☐ stage all and commit with "create the structure of the about me section"
+  ✔ stage all and commit with "create the structure of the about me section" @done (26/07/2019, 12:50:16)
 
 # Style the about me section
-  ☐ style the .about-me with a radial gradient of ellipse type using #fb9e91 and
-  ☐ make the .about-me__header of white color and ajust padding, font size
-  ☐ make .about-me__avatar round, like a circle, set the width to 100% and border
+  ✔ style the .about-me with a radial gradient of ellipse type using #fb9e91 and #e92568 colors @done (26/07/2019, 13:05:15)
+  ✔ make the .about-me__header of white color and ajust padding, font size, and margin bottom @done (26/07/2019, 13:05:16)
+  ✔ make .about-me__avatar round, like a circle, set the width to 100% and border color to #e97568 @done (26/07/2019, 13:19:12)
+  ✔ adjust the width of .about-me__avatar-wrapper as 100% doesn't look nice and set the border to white with transparency @done (26/07/2019, 13:23:13)
+  ✔ use ::after to add one more border and position it outside by 1.5rem @done (26/07/2019, 13:31:50)
+  ✔ style the about-me__full-name and .about-me__title on the center, increase font size, adjust padding and set color to white @done (26/07/2019, 13:41:03)
+  ✔ set the align to justify for the .about-me__slogan, adjust the padding, line height, font-size and text indent @done (26/07/2019, 13:43:41)
+  ✔ align the button links in .about-me__link-list to center @done (26/07/2019, 14:24:43)
+  ✔ fix the icon issue @done (26/07/2019, 14:24:46)
+  ✔ set the color of the border of the link button to #d1adc2, color to #7ea1a6, background to white and align the span tags using display flex. Increase the dont-size and make the corners rounded. Remove the underling of the anchor tag. @done (26/07/2019, 14:45:37)
+  ✔ set the .about-me__link-description alignement to center, font size to 1.5rem and the line height to 1.5rem @done (26/07/2019, 14:46:24)
