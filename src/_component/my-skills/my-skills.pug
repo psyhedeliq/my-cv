@@ -1,0 +1,34 @@
+//- the model, the data
+-
+  const headerSkills = '#my skills';
+  const whatCanIDoList = [
+    {
+      title: 'Front End',
+      skillList: [
+        'HTML5',
+        'CSS3',
+        'JavaScript',
+        'React',
+        'Angular'
+      ]
+    },
+    {
+      title: 'Back End',
+      skillList: [
+        'Node.js',
+        'SQL',
+        'Git',
+        'CLI'
+      ]
+    }
+  ];
+
+//- the presentation, the view
+#what-can-i-do
+.what-can-i-do
+  .what-can-i-do__header=headerSkills
+  each whatCanIDo in whatCanIDoList
+    .what-can-i-do__title=whatCanIDo.title
+    .what-can-i-do__list
+      each skill in whatCanIDo.skillList
+        .what-can-i-do__skill=skill
