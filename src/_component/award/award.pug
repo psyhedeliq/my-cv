@@ -1,5 +1,37 @@
 -
-  const awardHeader = '#awards'
+  const awardHeader = '#awards';
+  const awardList = [
+    {
+      title: 'Best 30s elevator speed speech',
+      description: 'I\'ve won the 1st place twice and 2nd place once.' ,
+      location: 'CodeTap Headquarters - London',
+      date: '2019'
+    },
+    {
+      title: 'Best website for president elections',
+      description: 'I\'ve won the best built website for the second runner in the presidential election campaign.' ,
+      location: 'Bucuresti / Romania',
+      date: '2016'
+    }
+  ];
+
 #award
 .award
   .award__header=awardHeader
+  each award in awardList
+    .award__card
+      .award__icon
+        span.my-cv__icon--trophy
+      .award__title=award.title
+
+      .award__icon
+        span.my-cv__icon--info
+      .award__description=award.description
+        
+      .award__icon
+        span.my-cv__icon--map2
+      .award__location=award.location
+
+      .award__icon
+        span.my-cv__icon--calendar
+      .award__date=award.date
