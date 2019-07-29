@@ -1,0 +1,12 @@
+.experience__header {
+  color: $color-periwinkle-gray;
+  @extend %header;
+}
+
+.experience__details {
+  display: none;
+}
+
+.experience__input:checked + .experience__title + .experience__details {
+  display: inherit;
+}

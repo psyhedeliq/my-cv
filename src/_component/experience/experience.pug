@@ -1,0 +1,54 @@
+//- model, data
+-
+  const headerExperience = '#experience';
+  const experienceList = [
+    {
+      title: 'Full Stack Developer Internship',
+      date: '2018 Aug - 2019 Feb',
+      company: 'Drift Data Systems',
+      responsabilityList: [
+        'Software testing',
+        'Fixing bugs',
+        'Contributing to the codebase',
+      ]
+    },
+    {
+      title: 'Microsoft Frontline Engineer (Office 365)',
+      date: '2017 Jun - 2017 Nov',
+      company: 'Wipro Limited',
+      responsabilityList: [
+        'Facilitating resolution of complex technical issues in all areas of assigned Microsoft products by collecting the necessary documentation or recreating the issue in-house.',
+        'Communicating with Microsoft Office 365 Enterprise customers, from EMEA region, via telephone or email, with regards to finding technical solutions.',
+        'Responsible for efficiently managing the relationship with the customers and thoroughly documenting their cases.',
+      ]
+    },
+    {
+      title: 'Tour Manager',
+      date: '2010 - 2016',
+      company: 'Freelancing',
+      responsabilityList: [
+        'Accompany the artist on tour by car or in some cases by train or plane',
+        'Make sure all travel arrangements run according to plan and that accommodation, meals, and service are satisfactory',
+        'Provide feedback after a tour as part of a debrief session',
+      ]
+    }
+  ];
+//- view, presentation
+//- CSS "+" :checked
+    input
+    controlled container (div, or whatever)
+#experience
+.experience
+  .experience__header=headerExperience
+  input(type="radio", name="same-name", id="experience-default")
+  label(for="experience-default") &times;
+  each experience, key in experienceList
+    input.experience__input(type="radio", name="same-name", id=`experience-id-${key}`)
+    label.experience__title(for=`experience-id-${key}`)=experience.title
+    .experience__details
+      .experience__top
+        .experience__date=experience.date
+        .experience__company=experience.company
+      .experience__list
+      each responsability in experience.responsabilityList
+        .experience__responsability=responsability
