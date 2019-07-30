@@ -54,13 +54,13 @@
 
   #landscape:checked + .landscape {
     top: -100%;
-  }
 
-  .landscape__message--show {
-    display: block;
-  }
+    .landscape__message--show {
+      display: block;
+    }
 
-  .landscape__message--hide {
-    display: none;
+    .landscape__message--hide {
+      display: none;
+    }
   }
 }
