@@ -1,0 +1,28 @@
+.client__header {
+  color: $color-periwinkle-gray;
+  @extend %header;
+}
+
+.client__image {
+  // border: 0.1rem solid red;
+  margin: 1.5rem auto;
+  width: 200px;
+  height: 100px;
+  background-image: url(/asset/image/client/client.jpg);
+
+  &:nth-last-child(1) {
+    background-position-y: 0px;
+  }
+
+  &:nth-last-child(2) {
+    background-position-y: -85px;
+  }
+
+  &:nth-last-child(3) {
+    background-position-y: -193px;
+  }
+
+  &:nth-last-child(4) {
+    background-position-y: -306px;
+  }
+}
