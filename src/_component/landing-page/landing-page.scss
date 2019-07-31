@@ -19,7 +19,9 @@
 .landing-page__title {
   font-size: 2.5rem;
   text-transform: capitalize;
-  color: $color-bird-flower;
+  color: $color-rio-grande;
+  margin-top: 1rem;
+  font-style: italic;
 }
 
 .landing-page__social {
@@ -35,9 +37,10 @@
   font-size: 2.2rem;
   cursor: pointer;
   transition: all 0.5s ease;
+  width: 80%;
 
   &:hover {
-    color: $color-bird-flower;
+    color: $color-rio-grande;
   }
 }
 
@@ -50,6 +53,16 @@
   display: none;
 }
 
+.landing-page__box-radio:checked + .landing-page__box-message {
+  display: flex;
+  transition: all 0.5s ease;
+}
+
+.landing-page__box-message {
+  font-size: 1.7rem;
+  justify-content: center;
+}
+
 #default-message-radio:checked
   + .landing-page__box-message
   + .landing-page__box-header {
@@ -57,16 +70,14 @@
 }
 
 .landing-page__box-body {
-  display: inline-block;
-  border: 0.2rem solid $color-bird-flower;
-  border-radius: 0.5rem;
-  padding: 0.8rem;
-  margin-top: 0.5rem;
-  position: relative;
+  border: 0.2rem solid $color-white;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  margin: 0 auto;
+  width: 65%;
 }
 
 .landing-page__box-header {
-  position: absolute;
   left: 10%;
   right: 10%;
   top: 100%;
@@ -76,7 +87,7 @@
 
 .landing-page__box-info,
 .landing-page__box-close {
-  background: $color-bird-flower;
+  background: $color-rio-grande;
   padding: 0.4rem;
   white-space: nowrap;
   line-height: 1.5rem;
@@ -91,25 +102,31 @@
 }
 
 .landing-page__box-close {
-  border-bottom-right-radius: 0.5rem;
   cursor: pointer;
-  width: 2.5rem;
-  font-size: 1.5rem;
+  font-size: 2.2rem;
+  color: $color-manatee;
+  background-color: $color-white;
+  border-radius: 2rem;
+  padding: 0rem 0.5rem;
+  transition: all 0.5s ease;
+  font-weight: bolder;
+
+  &:hover {
+    color: $color-rio-grande;
+  }
 }
 
 .landing-page__box-link,
 .landing-page__box-link:visited,
 .landing-page__box-message {
-  color: $color-white;
+  color: $color-rio-grande;
 }
 
 .landing-page__box-link,
 .landing-page__box-link:visited {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   white-space: nowrap;
   text-decoration: none;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 80vmin;
+  width: 85%;
   display: block;
 }

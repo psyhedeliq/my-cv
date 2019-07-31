@@ -1,3 +1,7 @@
+.experience {
+  background-color: $color-fiord;
+}
+
 .experience__details,
 .experience__input {
   display: none;
@@ -8,12 +12,12 @@
 }
 
 .experience__header {
-  color: $color-periwinkle-gray;
+  color: $color-white;
   @extend %header;
 }
 
 .experience__title {
-  background-color: $color-gumbo;
+  background-color: $color-fiord;
   color: $color-white;
   display: flex;
   justify-content: space-between;
@@ -23,7 +27,7 @@
 }
 
 .experience__details {
-  border: 0.2rem solid $color-gumbo;
+  border: 0.2rem solid $color-fiord;
 }
 
 .experience__top {
@@ -44,26 +48,28 @@
   font-size: 1.3rem;
   padding: 1rem;
   font-style: italic;
+  color: $color-white;
 }
 
 .experience__responsability {
   padding: 0.5rem 1rem;
+  color: $color-white;
   font-size: 1.2rem;
   line-height: 1.2;
 
   &:nth-child(odd) {
-    background-color: $color-fantasy;
+    background-image: radial-gradient($color-manatee, $color-fiord);
   }
 
   &:nth-child(even) {
-    background-color: $color-twilight;
+    background-color: $color-fiord;
   }
 }
 
 .my-cv__icon--plus {
   float: right;
   pointer-events: none;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .experience__input:checked + .experience__title {
